@@ -1,0 +1,114 @@
+body {
+    background-image: url(imgs/fondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    margin: 0;
+}
+
+#primercuadro {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cuadroblanco {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2vh;
+
+}
+
+header{
+    margin-bottom: 20vh;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: grey;
+
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu li {
+    padding: 0px;
+    margin: 5px;
+    border-color: black;
+    
+}
+
+.menu a {
+    background-color: white;
+    padding: 1vh;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover{
+    background-color: lightgrey;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+}
+
+dt{
+    margin: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+.gris {
+    background-color: lightgray;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: lightgray;
+    padding: 15px;
+    font-weight: bold;
+    color:dimgrey;
+    border: 2px solid;
+    margin-top: 20px;
+    bottom: 0;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
